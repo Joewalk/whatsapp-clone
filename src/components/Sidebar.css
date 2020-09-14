@@ -1,0 +1,55 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35;
+}
+.sidebar__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-right: 1px solid lightgray;
+}
+
+.sidebar__headerRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 10vw;
+}
+
+.sidebar__headerRight > .MuisSvgIcon-root {
+  font-size: 24px !important;
+}
+
+.sidebar__search {
+  padding: 20px;
+  height: 40px;
+  background: #f6f6f6;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar__searchContainer {
+  display: flex;
+  background: #fff;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  border-radius: 20px;
+}
+.sidebar__searchContainer > input {
+  border-radius: 20px;
+  padding: 10px;
+  color: gray;
+  flex: 1;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+}
+
+.sidebar__chats {
+  flex: 1;
+  background: #fff;
+  overflow-y: scroll;
+}
