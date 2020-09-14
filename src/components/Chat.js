@@ -9,12 +9,14 @@ import {
   MoreVert,
   SearchOutlined,
 } from "@material-ui/icons";
+import db from "../firebase";
 
 function Chat() {
   const [message, setMessage] = useState("");
+
   const sendMessage = (e) => {
     e.preventDefault();
-    console.log(message);
+
     setMessage("");
   };
   return (
