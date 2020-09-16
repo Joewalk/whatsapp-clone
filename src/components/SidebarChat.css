@@ -5,6 +5,10 @@
   border-bottom: 1px solid #f6f6f6;
   cursor: pointer;
 }
+a {
+  color: #444;
+  text-decoration: none;
+}
 .sidebarChat:hover {
   background: #ebebeb;
 }
